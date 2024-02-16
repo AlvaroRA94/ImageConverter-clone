@@ -1,0 +1,302 @@
+:root {
+    --primario: #4f46e5;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*-----------------Header-----------------*/
+
+.fondo_negro {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu_texto {
+    color: white;
+    font-size: 16px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rojo {
+    background-color: red;
+    padding: 4px 8px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 700;
+    position:relative;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+.logo {
+    width: 175px;
+}
+
+/*----------------BANNER 1-----------------*/
+
+.banner1__color__fondo {
+    background-color: #f3f4f6;
+}
+
+.banner1__caja {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.banner1__columnaIzq {
+    padding: 32px;
+    width: 47%;
+}
+
+.banner1__columnaIzq__titulo {
+    font-weight: 900;
+}
+
+.banner1__columnaIzq__bajada {
+    font-size: 18px;
+    margin: 10px 0px;
+}
+
+.banner1__columnaIzq__a {
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #374151;
+    font-weight: 700;
+}
+
+.banner1__columnaDer {
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: #a1a1aa;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    gap: 1rem;
+}
+
+.banner1__columnaDer__botonlila {
+    background-color: #4f46e5;
+    color: white;
+    border-radius: 100px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.banner1__columnaDer__bajada {
+    color: #9ca3af;
+    font-size: 1rem;
+}
+
+.botonlila__subida {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/*---------------------BANNER 2-----------------------*/
+
+.banner2{
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.banner2 p{
+    color: #4f46e5;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner2 h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 40px;
+    box-shadow: 10px 5px 5px rgba(229, 231, 235, 0.261);
+}
+
+.tarjeta h3{
+    font-size: 20px;
+    color: #374151;
+}
+
+.tarjeta img{
+    width: 100px;
+}
+
+.tarjeta p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner2__seccion2{
+    display: flex;
+    gap: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.banner2__seccion3{
+    display: flex;
+    gap: 2rem;
+    width: 29%;
+    margin: 1rem 20%;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px){
+    .banner2__seccion2, .banner2__seccion3{
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/*---------------------BANNER 3-----------------------*/
+
+.banner3__background{
+    background-color: #f3f4f6;
+
+}
+
+.banner3{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    gap: 10rem;
+}
+
+.banner3__img{
+    width: 40%;
+}
+
+.banner3__columnaDer{
+    width: 60%;
+}
+
+.banner3__columnaDer p{
+    font-size: 15px;
+
+}
+
+.banner3__columnaDer__detalles{
+    display: flex;
+    padding-top: 1rem;
+}
+
+.banner3__columnaDer__detalles1{
+    width: 50%;
+}
+
+.banner3__columnaDer__detalles2{
+    width: 50%;
+}
+
+.banner3__columnaDer__detalles1 p{
+    padding-bottom: 1rem;
+}
+
+.banner3__columnaDer__detalles2 p{
+    padding-bottom: 1rem;
+}
+
+.mano{
+    width: 20px;
+}
+
+/*---------------------BANNER 4-----------------------*/
+
+.banner4__seccion1{
+    text-align: center;
+    max-width: 42rem;
+    margin: 30px auto 30px auto;
+}
+
+.banner4__seccion1 p{
+    color: #4f46e5;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner4__seccion2{
+    display: flex;
+    width: 60%;
+    margin: 0px auto 30px auto;
+    gap: 1rem;
+}
+
+.banner4__tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    width: 33%;
+}
+
+.banner4__tarjeta img{
+    width: 150px;
+}
+
+.banner4__tarjeta p{
+    font-size: 15px;
+    margin: 10px;
+}
